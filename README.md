@@ -1,19 +1,19 @@
-StudentProcessor
-Overview
-StudentProcessor is a Java program designed to read and analyze student performance data from a CSV file. The program includes a console-based interface where users can select options to view information about student scores, totals, pass/fail statistics, and other metrics.
+#StudentProcessor
+##Overview
+**StudentProcessor** is a Java program designed to read and analyze student performance data from a CSV file. The program includes a console-based interface where users can select options to view information about student scores, totals, pass/fail statistics, and other metrics.
 
-Features
+##Features
 The program provides the following functionalities:
 
-Student Base Data: Displays each student's name, ID, total score, and percentage.
-Total Score Calculation: Outputs the total score for each student.
-Percentage Calculation: Calculates and displays the percentage score of each student.
-Top Ten Students: Lists the top ten students based on total scores.
-Pass/Fail Count by Subject: Shows the count of students who passed or failed in each subject.
-Fail Count by Subject: Indicates the number of students who failed each subject.
-Pass Percentage by Subject: Provides the pass percentage for each subject.
-Students Failing More Than Two Subjects: Identifies students who failed more than two subjects.
-Exit: Allows the user to exit the program.
+- **Student Base Data: Displays each student's name, ID, total score, and percentage.
+- **Total Score Calculation: Outputs the total score for each student.
+- **Percentage Calculation: Calculates and displays the percentage score of each student.
+- **Top Ten Students: Lists the top ten students based on total scores.
+- **Pass/Fail Count by Subject: Shows the count of students who passed or failed in each subject.
+- **Fail Count by Subject: Indicates the number of students who failed each subject.
+- **Pass Percentage by Subject: Provides the pass percentage for each subject.
+- **Students Failing More Than Two Subjects: Identifies students who failed more than two subjects.
+- **Exit: Allows the user to exit the program.
 How It Works
 Data Import
 The program reads student data from random_students_data.csv, which should be located in the studentProcessor directory. The file format is as follows:
