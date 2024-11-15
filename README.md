@@ -1,9 +1,9 @@
 
 # StudentProcessor
-##Overview
+## Overview
 **StudentProcessor** is a Java program designed to read and analyze student performance data from a CSV file. The program includes a console-based interface where users can select options to view information about student scores, totals, pass/fail statistics, and other metrics.
 
-##Features
+## Features
 The program provides the following functionalities:
 
 - **Student Base Data: Displays each student's name, ID, total score, and percentage.
@@ -19,9 +19,9 @@ How It Works
 Data Import
 The program reads student data from random_students_data.csv, which should be located in the studentProcessor directory. The file format is as follows:
 
-Format: Comma-separated values (CSV)
-Fields: Student ID, First Name, Last Name, Science Score, History Score, Mathematics Score, English Score
-Example line in random_students_data.csv:
+- **Format: Comma-separated values (CSV)
+- **Fields: Student ID, First Name, Last Name, Science Score, History Score, Mathematics Score, English Score
+- **Example line in random_students_data.csv:
 
 csv
 Copy code
